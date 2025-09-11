@@ -1,0 +1,17 @@
+Goals:
+
+1: create a sudoku puzzle
+    a: create 9x9 grid
+    b: generate a puzzle with only a certain number of numbers given
+        - check that it is a valid solution by the following checks
+    c: check for valid numbers:
+        - check that a number only appears once in a row
+        - check that a number only appears once in a column
+        - check that a number only appears once in a small 3x3 grid
+        - I could do this with assert
+
+2: create a sudoku solver
+3: other ideas:
+    - create modes (easy, medium, hard)
+    - display the sudoku puzzle in an image rather than in the terminal
+    - make it interactive
